@@ -1,7 +1,7 @@
 # Sound-Wave
-Bootcamp-Project1-
 
-About the Project Soundwave:
+
+About Soundwave:
 SoundWave, streams Music from the Internet into your device.
 The core feature of the app is that, the user can do a lyric search and get the lyrics of his favorite song from the app through Musixmatch. He can also search playlist for a particular artist from last.fm.
 Music streaming is another core function of SounWave. Naturally, it should support uninterrupted streams of music files from last.fm, so that users can enjoy high-quality playback.
