@@ -1,0 +1,146 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+*{
+    box-sizing: border-box;
+}
+
+.wrapper a {
+    font-size: 18px;
+    color: rgb(0, 115, 255);
+}
+
+.wrapper a:hover { 
+    color: #df17fa;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+.glyphicon-menu-right,.glyphicon-menu-left
+{
+    font-size: 35px;
+    text-align:center;
+    margin-top: 69px;
+}
+
+.navbar{
+    flex-wrap: nowrap;
+    
+}
+
+body{
+    background-image: url("../images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Applying Fonts*/
+#font-1, #font-2 {
+    font-family: 'Monoton', cursive;
+    color: rgb(160, 58, 160);
+    font-size: 23px;
+}
+
+/*Search Buttons*/
+#Lyrics-search,#Playlist-search,#btnSignup {
+    background-color: rgb(223, 89, 223);
+    color: white;
+    padding:10px;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+    margin-left: 5px;
+    float:left;
+}   
+
+.navJumbo
+{
+    height:150px;
+}
+
+
+#artistSearch
+{
+    font-size: 16px;
+    margin-left: 5px;
+    background-color: white;
+    height:35px;
+    width:300px;
+    float:left;
+    font-weight: bold;
+
+}
+#logo{
+    float:left;
+}
+
+footer
+{
+    text-align:center;
+}
+
+/*Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) 
+{
+    #artistSearch
+    {
+        font-size: 10px;
+        margin-left: 5px;
+        height:25px;
+        width:auto;
+    
+    }
+    #Lyrics-search,#Playlist-search{
+        
+        font-size: 10px;
+        text-align: center;
+    }
+
+    
+    .navbar
+    {
+        height: 100px;
+        width: auto;
+        margin-top: 0;
+        
+    }
+   
+    #font-1, #font-2 {
+        font-size: 0px;
+    }
+
+    .songFrame{
+        height:400px;
+    }
+
+} 
+
+/*Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) 
+{
+    #artistSearch
+    {
+        font-size: 8px;
+        height:25px;
+        
+    
+    }
+    #Lyrics-search,#Playlist-search{
+        
+        font-size: 8px;
+        text-align: center;
+    }
+
+    #font-1, #font-2 {
+        font-size: 0px;
+    }
+    .Img1{
+        vertical-align: middle;
+        width:300px;
+    }
+    .row{
+        text-align: center;
+    }
+    .glyphicon-menu-right,.glyphicon-menu-left{
+        margin-left: 150px;
+    }
+    
+}
