@@ -24,4 +24,4 @@ Praisy
 Derek
 Uriel
 
-Live site can be accessed here:https://derek111111.github.io/Sound-Wave/
+Live site can be accessed here: https://minalkarani.github.io/Sound-Wave/
