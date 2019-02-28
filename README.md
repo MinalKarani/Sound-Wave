@@ -25,3 +25,5 @@ Derek
 Uriel
 
 Live site can be accessed here: https://minalkarani.github.io/Sound-Wave/
+
+![gif](SoundWave.gif)
